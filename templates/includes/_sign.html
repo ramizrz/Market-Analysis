@@ -1,0 +1,24 @@
+<div class="container">
+      <legend>
+        <form class="form-signin">
+          <h2 class="form-signin-heading">Contact Us</h2>
+          <h4 class="signin-heading">Your Name</h4>
+          <label for="Name" class="sr-only">Name</label>
+          <input type="text" id="Name" class="form-control" placeholder="Name" required autofocus>
+          <h4 class="signin-heading">Enter your Email</h4>
+          <label for="inputEmail" class="sr-only">Email</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+          <h4 class="signin-heading">Contact</h4>
+          <label for="Contact" class="sr-only">Name</label>
+          <input type="number" id="Contact" class="form-control" placeholder="Contact" required autofocus>
+          <h4 class="signin-heading">Enter Your Review</h4>
+          <label for="review" class="sr-only">Review</label>
+          <input type="text" id="review" class="form-control" placeholder="Enter your review" required autofocus>
+        </form>
+        <form action = "http://localhost:5000/uploader" method = "POST"
+           enctype = "multipart/form-data">
+           <input type = "file" name = "file" />
+           <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+        </form>
+      </legend>
+</div>
